@@ -13,9 +13,9 @@ A simple e-commerce site.
   * MYSQL
 
 
-### Demo
+## Demo
 
-<a href="https://i.cs.hku.hk/~msnaveed/A1/index.html" target="_blank">Click to View</a>
+<a href="https://i.cs.hku.hk/~msnaveed/A1/index.html" target="_blank">Click to View Demo</a>
 
 
 
