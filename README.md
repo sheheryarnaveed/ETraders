@@ -1,6 +1,6 @@
 ## ETraders
 
-An e-commerce site.
+A simple e-commerce site.
 
 ## Interface
 * Frontend
@@ -15,11 +15,11 @@ An e-commerce site.
 
 ### Demo
 
-<a href="https://i.cs.hku.hk/~msnaveed/A1/index.html">Click to View</a>
+<a href="https://i.cs.hku.hk/~msnaveed/A1/index.html" target="_blank">Click to View</a>
 
 
 
 ### Screenshots
 <img src="https://github.com/sheheryarnaveed/ETraders/blob/master/src/screenshots/1.png" width="520" height="300">
 
-<img src="https://github.com/sheheryarnaveed/ETraders/blob/master/src/screenshots/2.png" width="520" height="300">
+<img src="https://github.com/sheheryarnaveed/ETraders/blob/master/src/screenshots/2.png" width="300" height="400">
