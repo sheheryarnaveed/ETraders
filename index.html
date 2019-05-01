@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETrader</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body onload="loadCategories(); loadInitialPage(); loadCartNumber()">
+    <a class="heading asap-font" href="index.html">
+        <img id="logo" src="logo.jpg" alt="logo" />
+        <h1><span style="color:#7E8E62;">E</span>Traders</h1>
+    </a>
+
+    <div id="cart-o" onclick="loadShoppingCart()" >
+        <a id="cart"><i class="fas fa-shopping-cart"></i><a>&nbsp;&nbsp;Items(<span id="numItems"></span>)
+    </div>
+
+    <div id="tab">
+        <div class="category"><a class="title-c ">Categories</a></div>
+        <div class="items"><a class="title-i">Items</a></div>
+    </div>
+
+<span id="dynamicSection">
+    <div id="col-left">
+        <div class="category-card">
+        </div>
+    </div>
+    <div id="col-right">
+        <span id="itemEntry">
+        </span>
+        <br>
+        <br>
+        <span id="nav-buttons">
+                <input id="prev" onclick="loadPreviousPage()" type="button" value="&laquo; Previous">
+                <input id="next" onclick="loadNextPage()" type="button" value="Next &raquo;">
+                <a class="holder">Page&nbsp;&nbsp;<input type="number" id="selectPage" class="selector" min="1" value="1" onchange="loadSpecifiedPage()">&nbsp;&nbsp;of&nbsp;&nbsp;<span id="totalPages"></span></a>
+                <br>
+                <br>
+                <br>
+        </span>
+    </div>
+</span>
+<hr>
+    <div id="footer">
+        <h3>ETraders Website</h3>
+        <p>Email: <a href="malito:etraders@etraders.hk">etraders@etraders.hk</a></p>
+        <p>Telephone: (+852) 0000 0000</p>
+    </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
